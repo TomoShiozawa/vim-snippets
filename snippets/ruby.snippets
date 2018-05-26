@@ -56,42 +56,42 @@ snippet descendants
 	end
 snippet if
 	if ${1:condition}
-		${0:${VISUAL}}
+		${0:VISUAL}
 	end
 snippet ife
 	if ${1:condition}
-		${2:${VISUAL}}
+		${2:VISUAL}
 	else
 		${0}
 	end
 snippet eif
 	elsif ${1:condition}
-		${0:${VISUAL}}
+		${0:VISUAL}
 snippet ifee
 	if ${1:condition}
-		$2
+		${2}
 	elsif ${3:condition}
-		$4
+		${4}
 	else
-		$0
+		${5}
 	end
 snippet unless
 	unless ${1:condition}
-		${0:${VISUAL}}
+		${0:VISUAL}
 	end
 snippet unlesse
 	unless ${1:condition}
-		$2
+		${2:VISUAL}
 	else
-		$0
+		${0}
 	end
 snippet unlesee
 	unless ${1:condition}
-		$2
+		${2}
 	elsif ${3:condition}
-		$4
+		${4}
 	else
-		$0
+		${0}
 	end
 snippet wh
 	while ${1:condition}
